@@ -1,0 +1,10 @@
+# Project-specific overrides
+# Normalize line endings
+# Generated on 2026-11-07
+*.yaml linguist-detectable=false
+
+docs/**/*.html linguist-vendored
+
+src/** linguist-detectable
+*.gif binary
+package-lock.json linguist-generated
